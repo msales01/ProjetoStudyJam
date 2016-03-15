@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tela2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cuscuz" />
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="Ingredientes" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 xícaras de cuscuz" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500g de charque dessalgado e desfiado" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250g de queijo coalho picado em pedacinhos" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 xícaras de leite" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 colheres cheias de requeijão" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 colher de manteiga" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pimenta biquinho a gosto" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 cebola cortada em rodelas" />
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="\nModo de Preparo" />
+
+        <TextView
+            style="@style/RecipeText"
+            android:text="Refogue a cebola.
+Ponha a carne de charque e a pimenta biquinho também na frigideira.
+Misture bem.
+Prepare o cuscuz como manda a embalagem.
+Faça uma caminha e forre as paredes da cuscuzeira com a massa.
+Use uma cuscuzeira sem haste no meio.
+Preencha o recipiente com charque e cubra com mais cuscuz.
+Bata o leite, o queijo, o requeijão e manteiga no liquidificador.
+Leve a mistura ao fogo até engrossar suavemente.
+Desenforme o cuscuz e coloque o creme de queijo por cima.
+Decore e sirva." />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="BotaoHome"
+            android:text="Home" />
+
+    </LinearLayout>
+</ScrollView>

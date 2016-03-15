@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tela2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/tapioca"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="Ingredientes" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2kg de farinha para tapioca (Polvilho)"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Água o suficiente para dar o ponto"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sal a gosto"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100g de coco ralado"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="175ml de leite de coco"/>
+
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="\nModo de preparo:"/>
+
+        <TextView
+            style="@style/RecipeText"
+            android:text="Massa:
+Em uma tigela, coloque o polvilho e vá adicionando a água até cobrir e ficar dois dedos acima.
+Deixe de um dia para o outro.
+Retire toda a água com a ajuda de um pano limpo sem deixar excesso.
+Vai ficar parecendo um bloco.
+Esfarele essa massa com as mãos.
+Passe pela peneira e acrescente o sal.
+Em uma frigideira anti-aderente, modele a tapioca como uma panqueca.
+Quando estiver pronta, a massa estará unida.
+Não deixe escurecer.
+Vire rapidamente e deixe secar do outro lado.
+Deve ser retirada do fogo ainda branquinha.
+\n\nRecheio:
+Coloque o coco ralado e regue com leite de coco.
+Dobre e sirva"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:onClick="BotaoHome"
+            android:layout_gravity="right" />
+    </LinearLayout>
+</ScrollView>

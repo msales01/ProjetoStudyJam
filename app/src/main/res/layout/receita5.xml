@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tela2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arroz" />
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="Ingredientes" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 xícara de arroz" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500 ml de água quente para cozinhar o arroz" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="600 ml de leite" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 caixa de leite condensado" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200 g de creme de leite" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Canela em pó a gosto"/>
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="\nModo de Preparo" />
+
+        <TextView
+            style="@style/RecipeText"
+            android:text="Cozinhe o arroz em fogo baixo até ficar macio.
+Aqueça o leite separadamente em uma panela até ferver.
+Quando o arroz estiver cozido, acrescente o leite quente e vá mexendo para não grudar no fundo da panela.
+Incorpore o leite condensado e a canela na quantidade de sua preferência e vá mexendo até engrossar.
+Desligue o fogo, adicione o creme de leite e misture por mais alguns minutos." />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="BotaoHome"
+            android:text="Home" />
+
+    </LinearLayout>
+</ScrollView>

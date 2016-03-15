@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tela2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/escondidinho" />
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="Ingredientes" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,5 kg de macaxeira" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 xícara e 1/2 de leite" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 colheres de sopa de mateiga ou margarina" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 caixa de creme de leite" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sal e coentro a gosto" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 kg de charque" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 tomate picado em pequenos cubos" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 pimentão verde picado em pequenos cubos" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 cebola picada em pequenos cubos" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300g de queijo mussarela ou coalho" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 colheres de sopa de queijo parmesão ralado" />
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="\nModo de Preparo" />
+
+        <TextView
+            style="@style/RecipeText"
+            android:text="Depois de cozida a macaxeira deve ser bem amassada em moedor de batata ou se preferir passar no liquidificador com um pouco de leite, para facilitar na hora de bater.
+Depois de bem amassada, levar ao fogo junto com a margarina, o leite e creme de leite, mexer bem até ficar numa consistência de purê.
+Deixar reservado.
+Recheio:
+Após escalda por pelo menos três vezes em água fervente, triturar a charque no liquidificador, depois de triturada, refolgar com o tomate, pimentão, cebola e coentro.
+Lembrando que esse recheio pode ser substituído por calabresa, bacon ou camarão.
+Em um refratário untado com margarina, colocar uma camada do purê da macaxeira, depois uma de charque, mais uma de purê e por último uma camada de queijo, depois polvilhar com queijo parmesão ralado e levar ao forno por aproximadamente 30 minutos." />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="BotaoHome"
+            android:text="Home" />
+
+    </LinearLayout>
+</ScrollView>

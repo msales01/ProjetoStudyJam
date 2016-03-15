@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tela2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bolo" />
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="Ingredientes" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 kg de massa de mandioca (puba)" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400 g de açúcar" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250 g de margarina" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 colher (sobremesa) de fermento em pó" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 ovos (as claras batidas em neve)" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 pitada de sal" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300 ml de leite de vaca ou coco" />
+
+        <TextView
+            style="@style/RecipeHeader"
+            android:text="\nModo de Preparo" />
+
+        <TextView
+            style="@style/RecipeText"
+            android:text="Bata a margarina com o açúcar e o sal.
+Acrescente as gemas, bater até virar um creme.
+Junte a massa de mandioca alternando com o leite.
+Acrescente as claras em neve, não bater só envolver de baixo para cima com uma espátula ou colher de pau.
+Coloque o fermento, envolva.
+Asse em forma untada e enfarinhada, forno preaquecido a 180ºC.
+Quando enfiar o palito e sair seco está bom." />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="BotaoHome"
+            android:text="Home" />
+
+    </LinearLayout>
+</ScrollView>

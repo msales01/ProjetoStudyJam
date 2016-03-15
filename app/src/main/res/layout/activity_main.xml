@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    tools:context="com.matheussales.projetofinal.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="abrirReceita1">
+
+        <ImageView
+            android:id="@+id/tapioca_image"
+            style="@style/InicialLayoutTheme"
+            android:src="@drawable/tapioca" />
+
+        <TextView
+            style="@style/HeaderTheme"
+            android:layout_toRightOf="@id/tapioca_image"
+            android:text="Tapioca" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="abrirReceita2">
+
+        <ImageView
+            android:id="@+id/cuscuz_image"
+            style="@style/InicialLayoutTheme"
+            android:src="@drawable/cuscuz" />
+
+        <TextView
+            style="@style/HeaderTheme"
+            android:layout_toRightOf="@id/cuscuz_image"
+            android:text="Cuscuz recheado com charque" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="abrirReceita3">
+
+        <ImageView
+            android:id="@+id/escondinho_image"
+            style="@style/InicialLayoutTheme"
+            android:src="@drawable/escondidinho" />
+
+        <TextView
+            style="@style/HeaderTheme"
+            android:layout_toRightOf="@id/escondinho_image"
+            android:text="Escondidinho de charque" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="abrirReceita4">
+
+        <ImageView
+            android:id="@+id/bolo_image"
+            style="@style/InicialLayoutTheme"
+            android:src="@drawable/bolo" />
+
+        <TextView
+            style="@style/HeaderTheme"
+            android:layout_toRightOf="@id/bolo_image"
+            android:text="Bolo de massa puba" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="abrirReceita5">
+
+        <ImageView
+            android:id="@+id/arroz_image"
+            style="@style/InicialLayoutTheme"
+            android:src="@drawable/arroz" />
+
+        <TextView
+            style="@style/HeaderTheme"
+            android:layout_toRightOf="@id/arroz_image"
+            android:text="Arroz Doce" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
